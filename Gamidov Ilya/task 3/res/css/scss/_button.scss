@@ -1,0 +1,41 @@
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    padding: 6px 11px;
+    font-size: 0.6rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+}
+.button-success {
+    color: rgb(255, 255, 255);
+    background-color: #04b962;
+    border-color: #04b962;
+    &:hover {
+        color: #fff;
+        background-color: #019e4c;
+        border-color: #019e4c;
+    }
+}
+.button-delete {
+    color: #fff;
+    color: #f43643;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f43643;
+    height: 2.0625rem;
+
+    &:hover,
+    :focus {
+        color: #fff;
+        background-color: #f43643;
+        border-color: #f43643;
+    }
+}

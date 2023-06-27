@@ -1,0 +1,195 @@
+// @import "normalize";
+@import "zeroing";
+@import "fonts";
+@import "functions";
+@import "form";
+@import "button";
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+// main container - wrapper
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template: Min(rem(60), 160px) 1fr / Min(rem(230), 500px) 1fr;
+}
+
+.container {
+    background-color: #c7cedd;
+    padding: 25px;
+    grid-area: 2/2 / 3/3;
+    display: flex;
+    gap: 5rem;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(57, 98, 254, 0.02), 0 3px 6px rgba(117, 108, 254, 0.12);
+    height: max-content;
+    width: max-content;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+
+    &__note-select-event {
+        width: rem(1600);
+        text-align: center;
+        font-size: rem(24);
+        font-weight: 600;
+        line-height: rem(28);
+        word-wrap: break-word;
+        margin: 0.5rem;
+    }
+    // .card__header
+
+    &__header {
+        padding: 0.75rem 1.25rem;
+        border-block-end: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    // .card__title
+
+    &__title {
+        margin-block-end: 0.75rem;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    // .card__body
+
+    &__body {
+        align-self: center;
+        padding-block: 1rem;
+        padding-inline: 3rem;
+    }
+}
+
+header {
+    background-color: rgba(225, 238, 236, 1);
+    box-shadow: 5px -1px 4px 0px;
+    grid-area: 1/2 / 2/3;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background-color: rgba(219, 233, 231, 1);
+    grid-row: 1/3;
+    box-shadow: -3px 1px 8px 1px;
+}
+
+.event-menu {
+    height: rem(35);
+    width: rem(430);
+    margin-inline-start: prc(50, 1340);
+    display: inline-flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select-dropdown {
+    border: 1px solid rgb(163, 172, 171);
+    display: block;
+    height: 100%;
+    width: rem(200);
+    border-radius: 6px;
+    overflow: hidden;
+
+    &__select {
+        background-color: rgba(199, 209, 208, 1);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+        font-size: rem(16);
+        font-weight: 500;
+
+        padding-inline-start: 5px;
+    }
+}
+
+.click-create-event {
+    width: auto;
+    font-size: rem(18);
+    font-weight: 500;
+
+    a {
+        color: rgba(18, 146, 245, 1);
+    }
+    a:hover,
+    :focus {
+        color: #611a8b;
+    }
+}
+
+.user-details {
+    // .user-details__full-name
+    border-block-end: 2px solid rgba(157, 157, 157, 1);
+    height: rem(90);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: rem(12);
+
+    &__full-name {
+        font-size: rem(18);
+        font-weight: 600;
+        word-wrap: break-word;
+    }
+    a {
+        color: rgba(18, 146, 245, 1);
+    }
+    a:hover,
+    :focus {
+        color: #611a8b;
+    }
+}
+.navbar-menu {
+    // .navbar-menu__action
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    width: 100%;
+    height: prc(750, 900);
+
+    &__action {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: rem(50);
+        color: black;
+        font-size: rem(15);
+        font-weight: 600;
+        align-items: center;
+        padding-inline-start: rem(25);
+
+        &::before {
+            content: "";
+            margin-inline-start: rem(-15);
+            background-image: url(/res/img/nav_action.svg);
+            position: absolute;
+            height: 0.7rem;
+            width: 0.7rem;
+        }
+        &::after {
+            content: "";
+            margin: 0.3125rem;
+            background-image: url(/res/img/nav_greater-than_sign.svg);
+            position: absolute;
+            width: 0.7rem;
+            height: 0.84rem;
+            right: 5px;
+        }
+        &:hover {
+            border: 1px solid blueviolet;
+        }
+    }
+}

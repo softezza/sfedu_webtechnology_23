@@ -1,0 +1,15 @@
+// TO %
+@function prc($pxOne, $pxTwo) {
+    $result: ($pxOne / $pxTwo) * 100%;
+    @return $result;
+}
+// TO rem
+@function rem($px){
+    $result: ($px / 16) + rem;
+    @return $result;
+}
+// TO em
+@function em($px){
+    $result: ($px / 16) + em;
+    @return $result;
+}
