@@ -1,0 +1,74 @@
+﻿<Window x:Class="Autotesting.ChoiseVariantLabWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Autotesting"
+        mc:Ignorable="d"
+                Title="LabsBase" Height="720" Width="1253" WindowStyle="None" AllowsTransparency="True" ResizeMode="NoResize" Background="Transparent" >
+
+    <Border Margin="10" BorderThickness="1" BorderBrush="#00000000">
+        <Border.Effect>
+            <DropShadowEffect Color="Black"
+                          Direction="270"
+                          BlurRadius="10"
+                          ShadowDepth="3" />
+        </Border.Effect>
+        <Grid Margin="0,0,0,0" DockPanel.Dock="Left" Height="698" VerticalAlignment="Bottom" Background="White">
+            <Grid HorizontalAlignment="Left" Height="690" VerticalAlignment="Top" Width="194" Background="#EFF7FE">
+                <Button HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" VerticalAlignment="Top" Width="26" Foreground="Transparent" BorderBrush="#00FF0000" Click="ButtonBack_Click" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources/Arrow.png"/>
+                    </Button.Background>
+                </Button>
+                <TextBlock Name="labelFIO" Text="Иван Иванов" HorizontalAlignment="Left" Margin="50,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.083,0.333" Height="27" Width="144" TextWrapping="Wrap" FontSize="20" FontFamily="/Autotesting;component/#Alegreya Sans SC"/>
+                <Label Name="labelGroup" Content="АИБ-3-037" HorizontalAlignment="Left" Margin="50,79,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.083,0.333" Height="21" Width="134" FontFamily="/Autotesting;component/#Montserrat"/>
+                <Label Name="labelVersion" Content="ver" HorizontalAlignment="Left" Margin="64,663,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.083,0.333" Height="28" Width="80" FontFamily="/Autotesting;component/#Alegreya Sans SC"/>
+            </Grid>
+            <Image  RenderOptions.BitmapScalingMode="HighQuality" HorizontalAlignment="Left" Height="42" Margin="10,0,0,602" VerticalAlignment="Bottom" Width="42" Source="Resources/User.png"/>
+            <Label Content="Доступные варианты" HorizontalAlignment="Left" Margin="222,26,0,0" VerticalAlignment="Top" Height="45" Width="345" FontSize="36" FontFamily="/Autotesting;component/#Alegreya Sans SC"/>
+            <Grid Name="VarOne" Height="150px" Width="150px" Visibility="Hidden" Margin="44,244,1037,296" >
+                <Image HorizontalAlignment="Left" Height="130px" Margin="15,5,0,0" VerticalAlignment="Top" Width="112px" Source="Resources/Lab.png" Cursor="Hand"/>
+                <Label Content="Варинат №" HorizontalContentAlignment="Center" Margin="15,95,16,0" VerticalAlignment="Top" Height="39" FontFamily="/Autotesting;component/#Alegreya Sans SC"/>
+                <Button Click="ButtonVariant_Click" Content="" HorizontalAlignment="Left" Margin="15,6,0,0" VerticalAlignment="Top" Width="112" Height="129" BorderBrush="#00673AB7" >
+                    <Button.Background>
+                        <ImageBrush/>
+                    </Button.Background>
+                </Button>
+            </Grid>
+            <ScrollViewer x:Name="ScrollTasks" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="593"  Margin="210,105,0,0" VerticalAlignment="Top" Width="1021">
+                <Grid Name="VarGrid" HorizontalAlignment="Left" Height="575" VerticalAlignment="Top" Width="1000">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="1*"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+
+                </Grid>
+            </ScrollViewer>
+            <Button Click="ButtonExit" Content="Button" HorizontalAlignment="Left" Margin="1204,10,0,0" VerticalAlignment="Top" Width="17" Height="17">
+                <Button.Background>
+                    <ImageBrush ImageSource="Resources/Exit.png"/>
+                </Button.Background>
+                <Button.BorderBrush>
+                    <ImageBrush/>
+                </Button.BorderBrush>
+            </Button>
+        </Grid>
+    </Border>
+
+</Window>
+

@@ -1,0 +1,63 @@
+﻿<Window x:Class="Autotesting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Autotesting"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="448" Width="631" WindowStyle="None" ResizeMode="NoResize" Background="Transparent" Foreground="#00000000" AllowsTransparency="True" WindowStartupLocation="CenterScreen">
+    <Border Margin="10" BorderThickness="1" BorderBrush="#00000000">
+        <Border.Effect>
+            <DropShadowEffect Color="Black"
+                          Direction="270"
+                          BlurRadius="10"
+                          ShadowDepth="3" />
+        </Border.Effect>
+        
+        <Border BorderBrush="White"  CornerRadius="5" BorderThickness="5" Background="#00000000">
+            <Grid Background="White">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="359*"/>
+                    <ColumnDefinition Width="250*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.ColumnSpan="2" Background="#00000000">
+                    <Button  Click="ButtonExit" HorizontalAlignment="Left" Margin="582,3,0,0" VerticalAlignment="Top" Width="15" Height="15" BorderBrush="#00673AB7" Foreground="{x:Null}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="Resources/Exit.png"/>
+                        </Button.Background>
+
+                    </Button>
+
+                </Grid>
+                <Label Content="Sing in" HorizontalAlignment="Left" Margin="1,68,0,0" VerticalAlignment="Top" FontSize="42" FontFamily="/Autotesting;component/#Advent Pro" Width="135" Background="{x:Null}" FontWeight="Bold" Grid.Column="1"/>
+                <TextBox Name="textBoxFIO"        materialDesign:HintAssist.Hint="Ф.И.О." HorizontalAlignment="Left" Height="31" Margin="281,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" FontSize="20" TextChanged="TextBoxFIO_TextChanged" Grid.ColumnSpan="2" Foreground="Black" FontFamily="/Autotesting;component/#Alegreya Sans SC" />
+                <TextBox Name="textBoxGroup"      materialDesign:HintAssist.Hint="Группа" HorizontalAlignment="Left" Height="31" Margin="281,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" FontSize="20" TextChanged="TextBoxGroup_TextChanged" Grid.ColumnSpan="2" Foreground="Black" FontFamily="/Autotesting;component/#Alegreya Sans SC" />
+                <TextBox Name="textBoxNumberZach" materialDesign:HintAssist.Hint="№ зач. книжки" HorizontalAlignment="Left" Height="31" Margin="281,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" FontSize="20" TextChanged="TextBoxZach_TextChanged" Grid.ColumnSpan="2" Foreground="Black" FontFamily="/Autotesting;component/#Alegreya Sans SC"/>
+                <Button Content="Вход" HorizontalAlignment="Left" Margin="1,350,0,0" VerticalAlignment="Top" Width="145" Height="34" FontSize="20" FontFamily="/Autotesting;component/#Alegreya Sans SC" Click="Button_Click" Grid.Column="1">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="80"/>
+                        </Style>
+                    </Button.Resources>
+                    <Button.BorderBrush>
+                        <ImageBrush/>
+                    </Button.BorderBrush>
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources/Rectangle 182.png"/>
+                    </Button.Background>
+                </Button>
+
+                <Label Name="labelFIO" Content="*" HorizontalAlignment="Left" Margin="281,150,0,0" VerticalAlignment="Top" FontSize="10" Foreground="Red" Width="308" Grid.ColumnSpan="2"/>
+                <Label Name="labelNumberZach" Content="*" HorizontalAlignment="Left" Margin="281,200,0,0" VerticalAlignment="Top" FontSize="10" Foreground="Red" Width="308" Grid.ColumnSpan="2"/>
+                <Label Name="labelGroup" Content="*" HorizontalAlignment="Left" Margin="281,250,0,0" VerticalAlignment="Top" FontSize="10" Foreground="Red" Width="308" Grid.ColumnSpan="2"/>
+                <Grid Margin="0,0,66,0">
+                    <Image  RenderOptions.BitmapScalingMode="HighQuality" Height="426" VerticalAlignment="Top" Source="Resources/StartIcon.png" Margin="-9,-5,14,-6"/>
+                    <Label Foreground="Black" Content="AutoTest" HorizontalAlignment="Left" Margin="76,16,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Alegreya Sans SC" Height="33"/>
+                </Grid>
+            </Grid>
+
+        </Border>
+    </Border>
+</Window>
