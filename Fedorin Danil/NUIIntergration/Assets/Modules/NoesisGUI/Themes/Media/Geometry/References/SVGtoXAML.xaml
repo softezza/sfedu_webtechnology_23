@@ -1,0 +1,27 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--<DrawingGroup x:Key="Group_137DrawingGroup" ClipGeometry="M0,0 V31 H31 V0 H0 Z">
+        <GeometryDrawing>
+            <GeometryDrawing.Brush>
+                <LinearGradientBrush StartPoint="17.1316,34.6711" EndPoint="21.5025,-21.971" MappingMode="Absolute" SpreadMethod="Pad" Opacity="1">
+                    <GradientStop Color="#FF222222" Offset="0" />
+                    <GradientStop Color="#FFB1BCC7" Offset="1" />
+                    <GradientStop Color="#FF222222" Offset="1" />
+                </LinearGradientBrush>
+            </GeometryDrawing.Brush>
+            <GeometryDrawing.Geometry>
+                <RectangleGeometry RadiusX="15.5" RadiusY="15.5" Rect="0,0,31,31" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="#FFF65E5E">
+            <GeometryDrawing.Geometry>
+                <EllipseGeometry RadiusX="12.5" RadiusY="12.5" Center="15.5,15.5" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+        <GeometryDrawing Brush="#FFFFFFFF">
+            <GeometryDrawing.Geometry>
+                <RectangleGeometry RadiusX="1" RadiusY="1" Rect="8,14,15,2" />
+            </GeometryDrawing.Geometry>
+        </GeometryDrawing>
+    </DrawingGroup>-->
+    <!--<DrawingImage x:Key="Group_137DrawingImage" Drawing="{StaticResource Group_137DrawingGroup}" />-->
+</ResourceDictionary>

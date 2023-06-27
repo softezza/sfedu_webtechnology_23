@@ -1,0 +1,50 @@
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI-blend.csproj.AssemblyReference.cache
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\Themes\Media\Geometry\References\SVGtoXAML.baml
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\Themes\Media\Geometry\Theme.Paths.baml
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI_MarkupCompile.cache
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI_MarkupCompile.lref
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI.pdb
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\SmartTwin.NoesisGUI.dll
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\SmartTwin.NoesisGUI.pdb
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\Newtonsoft.Json.dll
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\Noesis.GUI.Extensions.dll
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\System.Buffers.dll
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\System.Memory.dll
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\System.Numerics.Vectors.dll
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\bin\Debug\UniTask.dll
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\Themes\Generic.baml
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\Themes\Theme.Default.baml
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI.g.resources
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI-blend.csproj.CoreCompileInputs.cache
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI-blend.csproj.CopyComplete
+D:\Work\SmartTwin.VCSP\SmartTwin.VCSP\Assets\SmartTwin.Core\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI-blend.csproj.AssemblyReference.cache
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\Themes\Media\Geometry\References\SVGtoXAML.baml
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\Themes\Media\Geometry\Theme.Paths.baml
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI_MarkupCompile.cache
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI_MarkupCompile.lref
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI.pdb
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\SmartTwin.NoesisGUI.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\SmartTwin.NoesisGUI.pdb
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\Newtonsoft.Json.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\Noesis.GUI.Extensions.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\System.Buffers.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\System.Memory.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\System.Numerics.Vectors.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\bin\Debug\UniTask.dll
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\Themes\Generic.baml
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\Themes\Theme.Default.baml
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI.g.resources
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI-blend.csproj.CoreCompileInputs.cache
+D:\Trash Project\NUIIntergration\Assets\Modules\NoesisGUI\Blend~\obj\Debug\SmartTwin.NoesisGUI-blend.csproj.CopyComplete
