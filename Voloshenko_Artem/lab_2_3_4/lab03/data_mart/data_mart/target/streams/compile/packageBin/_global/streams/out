@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/damhay/IdeaProjects/lab03/target/scala-2.11/lab03_2.11-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lab03$$anonfun$decodeUrlAndGetDomain$1$1$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/damhay/IdeaProjects/lab03/target/scala-2.11/classes/lab03$$anonfun$decodeUrlAndGetDomain$1$1$$anonfun$apply$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lab03$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/damhay/IdeaProjects/lab03/target/scala-2.11/classes/lab03$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lab03.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/damhay/IdeaProjects/lab03/target/scala-2.11/classes/lab03.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lab03$$anonfun$decodeUrlAndGetDomain$1$1$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/damhay/IdeaProjects/lab03/target/scala-2.11/classes/lab03$$anonfun$decodeUrlAndGetDomain$1$1$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lab03$$anonfun$decodeUrlAndGetDomain$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/damhay/IdeaProjects/lab03/target/scala-2.11/classes/lab03$$anonfun$decodeUrlAndGetDomain$1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lab03$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/damhay/IdeaProjects/lab03/target/scala-2.11/classes/lab03$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	lab03$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/damhay/IdeaProjects/lab03/target/scala-2.11/classes/lab03$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
