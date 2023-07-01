@@ -1,0 +1,40 @@
+version: '2.0'
+
+services:
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password 
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 654321
+      MYSQL_DATABASE: testingsystem_db
+    ports:
+      - 3306:3306
+    
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+
+  web:
+    build: ./src
+    command: uvicorn app.main:app --reload --workers 1 --host 0.0.0.0 --port 8000
+    volumes:
+      - ./src/:/usr/src/app/
+    ports:
+      - 8000:8000
+    depends_on:
+       wait-for-db:
+         condition: service_completed_successfully
+    links:
+      - db
+      
+  wait-for-db:
+    image: atkrad/wait4x
+    depends_on:
+      - db
+    command: tcp db:3306 -t 30s -i 250ms
